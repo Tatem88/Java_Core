@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  javadoc_creater:
+    build: .
+    volumes:
+      - .:/build
+    command: javadoc /build/src/Lesson_1/Main.java
