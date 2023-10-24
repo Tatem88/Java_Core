@@ -117,7 +117,7 @@ public class Main {
                         , Skill.ENGINEER
                         , 5);
                 taskHigh1.setPriority(Priority.HIGH);
-                taskHigh2 = new Task("Вhigh_level_of_tasks_2"
+                taskHigh2 = new Task("high_level_of_tasks_2"
                         , 3,
                         LocalDate.of(2023, 10, 24)
                         , Skill.ENGINEER
